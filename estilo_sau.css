@@ -1,0 +1,32 @@
+.titulo{
+	padding:5px;
+	border-radius: 15px;
+	text-align: center;
+	background-color: #FFF;
+	display: flex;
+	justify-content: center;
+}
+.text{
+	align-items: center;
+}
+.formulario{
+	background-color: #FFF;
+	/* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width:90%;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border-radius: 1em;
+    border-radius: 15px;
+}
+form div + div {
+    margin-top: 1em;
+}
+textarea{
+	width: 500px;
+	height:15px;
+}
+button{
+    font-size:100%;
+}
+*{font-weight: 800;}

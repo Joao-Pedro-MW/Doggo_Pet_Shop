@@ -1,0 +1,21 @@
+.formulario{
+	background-color: #FFF;
+	/* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 600px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+textarea{
+	width: 500px;
+	height: 100px;
+}
+button{
+    font-size:100%;
+}
+*{font-weight: 800;}
